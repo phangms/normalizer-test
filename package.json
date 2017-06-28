@@ -1,0 +1,24 @@
+{
+  "name": "normalizer-bluemix-test",
+  "description": "normalizer-bluemix-test description",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --timeout 10000"
+  },
+  "dependencies": {
+    "express": "~4.0.0",
+    "body-parser": "~1.0.1"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "devDependencies": {
+    "body-parser": "^1.0.1",
+    "chai": "~3.5.0",
+    "chai-http": "~2.0.1",
+    "express": "^4.0.0",
+    "mocha": "~2.5.3"
+  }
+}
