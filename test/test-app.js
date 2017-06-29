@@ -14,6 +14,6 @@ describe('root', function() {
 
 it('should say hello world', function() {
 	chai.request('http://localhost:8888').get('/').end(function(err, res) {
-		expect(res).to.have.status(200);
+		expect(res).to.have.status(400);
 	});
 });
